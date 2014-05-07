@@ -22,7 +22,7 @@ public class mainClass {
 		
 		//compare guess and value 
 		dVal=Dice.value;
-		
+		System.out.println("Dices Add up to "+Dice.value);
 		if(guess <= dVal*1.1 && guess>= dVal*0.9) {
 			System.out.println("You win!");
 		}
